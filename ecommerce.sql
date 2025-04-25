@@ -38,6 +38,10 @@ CREATE TABLE Product_variation (
     FOREIGN KEY (color_id) REFERENCES Color(color_id)
 );
 
+
+
+
+INSERTING SAMPLE DATA TO THE DATBLES
 -- Insert sample data into Brand
 INSERT INTO Brand (brand_id, brand_name) VALUES
 (1, 'Nike'),
@@ -55,8 +59,6 @@ INSERT INTO Product_category (category_id, category_name) VALUES
 (5, 'Accessories');
 
 
-
-INSERTING SAMPLE DATA TO THE DATBLES
 -- Insert sample data into Color
 INSERT INTO Color (color_id, color_name, hex_code) VALUES
 (1, 'Red', '#FF0000'),
