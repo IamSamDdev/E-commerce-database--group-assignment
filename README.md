@@ -1,1 +1,1 @@
-# Project details here
+# ECOMMERCE DATABASE ERD DESIGN
